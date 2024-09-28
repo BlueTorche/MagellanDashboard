@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+    <tbody>
+        <thead>
+            <tr>
+                <th>Computer</th>
+                <th>user</th>
+                <th>date</th>
+            </tr>
+        </thead>
+        {% for log in all_logs %}
+            <tr>
+                <td>{{ log.computer }}</td>
+                <td>{{ log.user }}</td>
+                <td>{{ log.date }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+</body>
+</html>
