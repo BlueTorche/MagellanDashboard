@@ -17,7 +17,7 @@ class ApiEndpoint(MethodResource):
                 uptime_dt = uptime
 
             data["Computer"] = data["Computer"].upper()
-            if data["User"][:9] == "MAGELLAN/":
+            if data["User"][:9] == "MAGELLAN\\":
                 data["User"] = data[9:].lower()
 
             new_logs = Logs(user=data['User'], computer=data['Computer'], date=datetime.now())
