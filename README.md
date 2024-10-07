@@ -65,7 +65,7 @@ Cette requête doit contenir dans son body au minimum les infos suivantes :
 
 > { "User" : "" ; "Computer" = "" }
 
-C'est infos sont sous la forme d'un body HTTP json classique. 
+Ces infos sont sous la forme d'un body HTTP json classique. 
 
 ## Script Powershell 
 
